@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Georgia", serif;
+}
+
+body {
+    margin: 0;
+    min-width: 1000px;
+    padding: 0;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+
+header {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 20px;
+    width: 700px;
+    margin-left: 100px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p{
+    text-indent: 15px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #a66;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a[href^="http"]::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url('external-link-52.png');
+    background-size: contain;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: square;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    display: block;
+    border: 2px solid #a66;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+header, footer, section, aside, nav {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
